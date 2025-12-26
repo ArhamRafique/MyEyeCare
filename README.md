@@ -58,7 +58,7 @@ com.alpha.myeyecare/
 │ 
 ├── common/                          
 │   ├── constants/ 
-│   │   ├── AppDestinations.kt
+│   │   ├── AppDestinations.kt 
 │   │   └── ReminderTypes.kt 
 │   └── utils/ 
 │       ├── ExtensionFunctions.kt            
