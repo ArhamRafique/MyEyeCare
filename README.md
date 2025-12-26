@@ -54,7 +54,79 @@ The pipeline includes:
 - ✅ **Unit Test Execution** → Runs unit tests with coverage checks to validate correctness.
 
 
-              
+com.alpha.myeyecare/ 
+│ 
+├── common/                          
+│   ├── constants/ 
+│   │   ├── AppDestinations.kt 
+│   │   └── ReminderTypes.kt 
+│   └── utils/ 
+│       ├── ExtensionFunctions.kt            
+│       └── UtilFunctions.kt         
+│ 
+├── data/                            
+│   ├── local/                       
+│   │   ├── converters/ 
+│   │   │   ├── Converters.kt 
+│   │   ├── dao/ 
+│   │   │   ├── ReminderDao.kt  
+│   │   ├── entities/ 
+│   │   │   ├── Reminder.kt  
+│   │   └── ReminderDatabase.kt 
+│   │ 
+│   └── repository/                 # Repository implementation
+│       ├── SuggectionRepositoryImpl.kt  
+│       └── ReminderRepositoryImpl.kt  
+│  
+├── di/                             
+│   ├── AppModule.kt 
+│   ├── DatabaseModule.kt
+│   └── RemoteModule.kt 
+│
+├── domain/                         
+│   ├── model/ 
+│   │   ├── DaysOfWeek.kt 
+│   │   ├── ReminderDetails.kt 
+│   │   ├── ReminderFrequency.kt 
+│   │   └── Suggestion.kt 
+│   │ 
+│   ├── repository/                 # Abstract repository interfaces 
+│   │   ├── ReminderRepository.kt 
+│   │   └── SuggestionRepository.kt 
+│   │ 
+│   └── usecase/                   
+│       ├── CheckReminderStatusUseCase.kt 
+│       ├── GetReminderDetailsUserCase.kt 
+│       ├── SaveReminderUseCase.kt  
+│       └── SaveSuggestionsUseCase.kt 
+│ 
+├── presentation/                  
+│   ├── navigation/ 
+│   │    └── NavGraph.kt  
+│   └── ui/                   
+│       ├── common/ 
+│       │   └── CommonUI.kt
+│       ├── detailsScreen/ 
+│       │   ├── SetupReminderScreen.kt
+│       │   └── SetupReminderViewModel.kt
+│       ├── home/ 
+│       │   └── HomeScreen.kt 
+│       ├── splash/ 
+│       │   ├── SplashScreen.kt
+│       │   └── SplashViewModel.kt 
+│       ├── suggestion/ 
+│       │   ├── SuggestionSubmissionViewModel.kt 
+│       │   └── UserSuggestionScreen.kt
+│       ├── theme/ 
+│       │   ├── Color.kt 
+│       │   ├── Theme.kt 
+│       │   └── Type.kt 
+│       └── userPermission.kt  
+├── Worker/                  
+│   ├── ReminderScheduler.kt
+│   └── ReminderWorker.kt 
+├── MainActivity.kt                   
+└── MyApplication.kt   
 
 ```
 
