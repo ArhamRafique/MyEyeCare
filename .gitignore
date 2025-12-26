@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /build
 # Built application files
 *.apk
@@ -121,4 +121,4 @@ google-services.json
 
 # Android Profiling
 *.hprof
->>>>>>> 183d454b57b31745fae3b7f2d6b22b705c535204
+
