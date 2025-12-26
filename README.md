@@ -1,9 +1,4 @@
-# MyEyeCare
-Here’s a **clean, professional, and beautiful GitHub README** tailored exactly to your **MyEyeCare** app, its architecture, and features. You can copy-paste it directly.
-
----
-
-# 👁️ MyEyeCare – Smart Eye Health Reminder App
+ 👁️ MyEyeCare – Smart Eye Health Reminder App
 
 **MyEyeCare** is a modern Android application designed to help users maintain healthy eye habits through smart reminders, weekly analytics, and clean user experience. The app is built using **industry-standard Android architecture** with a strong focus on scalability, testability, and performance.
 
