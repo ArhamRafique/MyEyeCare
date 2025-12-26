@@ -65,7 +65,7 @@ The pipeline includes:
 ## 📂 Project Structure
 
 The project follows **Clean Architecture + MVVM**, ensuring scalability, testability, and separation of concerns.
-
+```text
 
 com.alpha.myeyecare/
 │
@@ -128,7 +128,7 @@ com.alpha.myeyecare/
 │
 ├── MainActivity.kt
 └── MyApplication.kt
-
+```
 ## 📸 Screenshots
 | Home Screen                                           | Reminder Screen                                               | Settings                                                     |
 |-------------------------------------------------------|---------------------------------------------------------------|--------------------------------------------------------------|
