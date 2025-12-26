@@ -53,81 +53,81 @@ The pipeline includes:
 - 🏗 **Build Verification** → Ensures that every commit/PR successfully compiles the Android project.
 - ✅ **Unit Test Execution** → Runs unit tests with coverage checks to validate correctness.
 
-com.alpha.myeyecare/ 
-│ 
-├── common/                          
-│   ├── constants/ 
-│   │   ├── AppDestinations.kt 
-│   │   └── ReminderTypes.kt 
-│   └── utils/ 
-│       ├── ExtensionFunctions.kt            
-│       └── UtilFunctions.kt         
-│ 
-├── data/                            
-│   ├── local/                       
-│   │   ├── converters/ 
-│   │   │   ├── Converters.kt 
-│   │   ├── dao/ 
-│   │   │   ├── ReminderDao.kt  
-│   │   ├── entities/ 
-│   │   │   ├── Reminder.kt  
-│   │   └── ReminderDatabase.kt 
-│   │ 
-│   └── repository/                 # Repository implementation
-│       ├── SuggectionRepositoryImpl.kt  
-│       └── ReminderRepositoryImpl.kt  
-│  
-├── di/                             
-│   ├── AppModule.kt 
-│   ├── DatabaseModule.kt
-│   └── RemoteModule.kt 
-│
-├── domain/                         
-│   ├── model/ 
-│   │   ├── DaysOfWeek.kt 
-│   │   ├── ReminderDetails.kt 
-│   │   ├── ReminderFrequency.kt 
-│   │   └── Suggestion.kt 
-│   │ 
-│   ├── repository/                 # Abstract repository interfaces 
-│   │   ├── ReminderRepository.kt 
-│   │   └── SuggestionRepository.kt 
-│   │ 
-│   └── usecase/                   
-│       ├── CheckReminderStatusUseCase.kt 
-│       ├── GetReminderDetailsUserCase.kt 
-│       ├── SaveReminderUseCase.kt  
-│       └── SaveSuggestionsUseCase.kt 
-│ 
-├── presentation/                  
-│   ├── navigation/ 
-│   │    └── NavGraph.kt  
-│   └── ui/                   
-│       ├── common/ 
-│       │   └── CommonUI.kt
-│       ├── detailsScreen/ 
-│       │   ├── SetupReminderScreen.kt
-│       │   └── SetupReminderViewModel.kt
-│       ├── home/ 
-│       │   └── HomeScreen.kt 
-│       ├── splash/ 
-│       │   ├── SplashScreen.kt
-│       │   └── SplashViewModel.kt 
-│       ├── suggestion/ 
-│       │   ├── SuggestionSubmissionViewModel.kt 
-│       │   └── UserSuggestionScreen.kt
-│       ├── theme/ 
-│       │   ├── Color.kt 
-│       │   ├── Theme.kt 
-│       │   └── Type.kt 
-│       └── userPermission.kt  
-├── Worker/                  
-│   ├── ReminderScheduler.kt
-│   └── ReminderWorker.kt 
-├── MainActivity.kt                   
-└── MyApplication.kt   
+---
+
+## 🚀 CI/CD & Quality
+
+* Automated builds & tests via **GitHub Actions**
+* Code quality checks using **Detekt**
+* Test coverage reports with **JaCoCo**
 
 ---
+## 📂 Project Structure
+
+The project follows **Clean Architecture + MVVM**, ensuring scalability, testability, and separation of concerns.
+
+
+com.alpha.myeyecare/
+│
+├── common/
+│   ├── constants/
+│   │   ├── AppDestinations.kt
+│   │   └── ReminderTypes.kt
+│   └── utils/
+│       ├── ExtensionFunctions.kt
+│       └── UtilFunctions.kt
+│
+├── data/
+│   ├── local/
+│   │   ├── converters/
+│   │   │   └── Converters.kt
+│   │   ├── dao/
+│   │   │   └── ReminderDao.kt
+│   │   ├── entities/
+│   │   │   └── Reminder.kt
+│   │   └── ReminderDatabase.kt
+│   └── repository/
+│       ├── SuggestionRepositoryImpl.kt
+│       └── ReminderRepositoryImpl.kt
+│
+├── di/
+│   ├── AppModule.kt
+│   ├── DatabaseModule.kt
+│   └── RemoteModule.kt
+│
+├── domain/
+│   ├── model/
+│   │   ├── DaysOfWeek.kt
+│   │   ├── ReminderDetails.kt
+│   │   ├── ReminderFrequency.kt
+│   │   └── Suggestion.kt
+│   ├── repository/
+│   │   ├── ReminderRepository.kt
+│   │   └── SuggestionRepository.kt
+│   └── usecase/
+│       ├── CheckReminderStatusUseCase.kt
+│       ├── GetReminderDetailsUseCase.kt
+│       ├── SaveReminderUseCase.kt
+│       └── SaveSuggestionsUseCase.kt
+│
+├── presentation/
+│   ├── navigation/
+│   │   └── NavGraph.kt
+│   └── ui/
+│       ├── home/
+│       │   └── HomeScreen.kt
+│       ├── detailsScreen/
+│       ├── splash/
+│       ├── suggestion/
+│       ├── theme/
+│       └── common/
+│
+├── worker/
+│   ├── ReminderScheduler.kt
+│   └── ReminderWorker.kt
+│
+├── MainActivity.kt
+└── MyApplication.kt
 
 ## 📸 Screenshots
 | Home Screen                                           | Reminder Screen                                               | Settings                                                     |
@@ -180,13 +180,6 @@ This helps users build better eye-care habits over time.
 
 ---
 
-## 🚀 CI/CD & Quality
-
-* Automated builds & tests via **GitHub Actions**
-* Code quality checks using **Detekt**
-* Test coverage reports with **JaCoCo**
-
----
 
 ## 🧑‍💻 Author
 
