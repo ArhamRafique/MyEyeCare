@@ -55,9 +55,6 @@ The pipeline includes:
 
 
 
-
-```
-
 ---
 
 ## 📸 Screenshots
