@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /build
 # Built application files
 *.apk
@@ -85,3 +86,39 @@ coverage/
 
 # Ignore Firebase config file
 google-services.json
+=======
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log/OS Files
+*.log
+
+# Android Studio generated files and folders
+captures/
+.externalNativeBuild/
+.cxx/
+*.aab
+*.apk
+output-metadata.json
+
+# IntelliJ
+*.iml
+.idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Android Profiling
+*.hprof
+>>>>>>> 183d454b57b31745fae3b7f2d6b22b705c535204
