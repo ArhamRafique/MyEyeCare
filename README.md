@@ -1,32 +1,3 @@
-<<<<<<< HEAD
-# 👁️💧 Eye & Water Reminder App
-
-[![Play Store](https://img.shields.io/badge/Download-PlayStore-green?logo=googleplay)](https://play.google.com/store/apps/details?id=com.alpha.myeyecare)  
-[![CI](https://github.com/shubham-gadekar-alpha/myEyeCare/actions/workflows/CI-Checks.yml/badge.svg)](https://github.com/shubham-gadekar-alpha/myEyeCare/actions/workflows/CI-Checks.yml)
-
-_A simple yet powerful reminder app to take care of your **eye health** and **hydration needs**._
-(**Currently under review & available for testing only. If you wish to test this app, please share your email so I can send you an invite link.**)
-
----
-
-## 📱 About the App
-Eye & Water Reminder is an Android application designed to remind users to:
-- Take regular **eye breaks** (reducing digital strain).
-- Drink enough **water** throughout the day.
-
-The app is lightweight, simple, and **perfect for health-conscious users**.  
-This repository is mainly created for **learning purposes** and is **open to contributions** from developers worldwide.
-
----
-
-## 🚀 Features
-✅ Smart reminders for both **eye breaks** & **water intake**  
-✅ Customizable reminder frequency  
-✅ User-friendly **UI with Material Design**  
-✅ Lightweight & battery-efficient  
-✅ Free & Open Source  
-✅ Perfect for **Android learning** (Jetpack Compose, MVVM, Room, Clean Architecture, etc.)
-=======
  👁️ MyEyeCare – Smart Eye Health Reminder App
 
 **MyEyeCare** is a modern Android application designed to help users maintain healthy eye habits through smart reminders, weekly analytics, and clean user experience. The app is built using **industry-standard Android architecture** with a strong focus on scalability, testability, and performance.
@@ -60,12 +31,8 @@ This repository is mainly created for **learning purposes** and is **open to con
 
   * Local storage using Room Database
   * DataStore for user preferences
->>>>>>> 183d454b57b31745fae3b7f2d6b22b705c535204
-
----
 
 ## 🛠 Tech Stack
-<<<<<<< HEAD
 - **Language**: Kotlin
 - **Architecture**: MVVM (Model-View-ViewModel) with Clean Architecture 
 - **UI Toolkit**: Jetpack Compose
@@ -86,11 +53,6 @@ The pipeline includes:
 - 🏗 **Build Verification** → Ensures that every commit/PR successfully compiles the Android project.
 - ✅ **Unit Test Execution** → Runs unit tests with coverage checks to validate correctness.
 
-These checks are triggered automatically on every **pull request** to maintain project quality.
-
---- 
-
-```
 
 com.alpha.myeyecare/ 
 │ 
@@ -190,13 +152,6 @@ Every PR will go through automated **build, lint, and test checks** before mergi
 
 ---
 
-## 👨‍💻 Developers
-- **Shubham Gadekar** (Developer)
-- **Nitin Tyagi** (Developer)
-- Open to all contributors! Add yourself here via PR.
-
----
-
 ## 🎯 Why Open Source?
 This project is **for learning purposes**. Developers can explore:
 - **Jetpack Compose UI development**
@@ -209,44 +164,9 @@ This project is **for learning purposes**. Developers can explore:
 
 ---
 
-## 📥 Download
-Get it now on the Play Store:  
-👉 [Download from Play Store](https://play.google.com/store/apps/details?id=com.alpha.myeyecare)
-
----
-
 ## ⭐ Support
 If you find this project helpful, don’t forget to **star ⭐ the repo** and share it with others!  
-=======
-
-* **Language:** Kotlin
-* **UI:** Jetpack Compose
-* **Architecture:** MVVM + Clean Architecture
-* **Async:** Kotlin Coroutines & Flow
-* **Local Storage:** Room Database
-* **Preferences:** DataStore
-* **DI:** Hilt
-* **Background Tasks:** WorkManager
-* **Testing:** JUnit + JaCoCo
-* **Code Quality:** Detekt
-* **CI/CD:** GitHub Actions
-
----
-
-## 🧱 Project Architecture
-
-Presentation (UI, ViewModels)
-        ↓
-Domain (UseCases, Models, Repositories)
-        ↓
-Data (Room DB, DAO, Repository Impl)
-
-
-This structure ensures:
-
-* High testability
-* Loose coupling
-* Easy scalability
+======
 
 ---
 
@@ -273,7 +193,7 @@ This helps users build better eye-care habits over time.
 
 ## 🧑‍💻 Author
 
-**Ahmad Raza**
+**Arham Rafique**
 Android Developer | Clean Architecture | Jetpack Compose
 
 ---
@@ -282,6 +202,3 @@ Android Developer | Clean Architecture | Jetpack Compose
 
 This project is licensed under the **MIT License**.
 
-
-
->>>>>>> 183d454b57b31745fae3b7f2d6b22b705c535204
